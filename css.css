@@ -1,8 +1,11 @@
 
-body {
+/* body {
+
   font-family: sans-serif;
+
   margin: 0;
-}
+
+} */
 
 .section {
   height: 100vh;
@@ -70,18 +73,19 @@ body {
 
 @media (max-width:320px){
   .menu {
-    display:block;
+    display: block;
   }
   .menu-block {
-    display:none;
+    display: none;
   }
 
   @media (max-width:720px){
     .menu {
-    display:none;
+    display: none;
   }
   .menu-block {
-    display:block;
+    display: block;
   }
   
+}
 }
