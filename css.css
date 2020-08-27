@@ -77,7 +77,7 @@
   .menu {
     display: block;
   }
-  .menu-block {
+  .menu-nav__link {
     display: none;
   }
 
@@ -85,7 +85,7 @@
     .menu {
     display: none;
   }
-  .menu-block {
+  .menu-nav__link {
     display: block;
   }
   
