@@ -68,11 +68,11 @@ body {
  } */
  
 
-@media (max-width:480px){
+@media (max-width:320px){
   .menu {
     display:block;
   }
-  .menu-nav {
+  .menu-block {
     display:none;
   }
 
@@ -80,7 +80,7 @@ body {
     .menu {
     display:none;
   }
-  .menu-nav {
+  .menu-block {
     display:block;
   }
   
