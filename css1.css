@@ -1,0 +1,77 @@
+
+.t1 {
+  font-size:50px;
+  cursor:pointer;
+  color:green;
+  transition-property:top;
+}
+
+.t1:hover {
+  color:black;
+}
+
+.t2 {
+  font-size:20px;
+  color:red;
+  transition-duration:3s;
+}
+
+.t2:hover {
+  color:green;
+}
+
+.t3 {
+  font-size:20px;
+  color:red;
+  transition-timing-function:4s;
+}
+
+.t3:hover {
+  color:blue;
+}
+
+.t4 {
+  font-size:20px;
+  color:black;
+  transition-delay:5s;
+}
+
+.t4:hover {
+  color:orange;
+}
+
+@media (min-width:320px){
+  .t1 {
+    font-size:20px;
+  }
+ }
+
+@media (min-width:481px){
+  .t1 {
+    font-size:30px;
+  }
+ }
+  
+@media (min-width:641px){
+  .t1 {
+    font-size:40px;
+  }
+ }
+ 
+ @media (min-width:961px){
+  .t1 {
+    font-size:50px;
+  }
+ }
+ 
+  @media (min-width:1025px){
+  .t1 {
+    font-size:60px;
+  }
+ }
+ 
+  @media (min-width:1281px){
+  .t1 {
+    font-size:70px;
+  }
+ }
